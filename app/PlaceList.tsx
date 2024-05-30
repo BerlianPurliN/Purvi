@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, TextInput, FlatList, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, TextInput, View, FlatList, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import PlaceItem from '../PlaceItem';
+import PlaceItem from './PlaceItem';
 
 interface Place {
   id: number;
